@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <h1  class="logo fn_en text-primary mr-3"><a href="#">Fragrance</a></h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link active" href="#">Products <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">ContactUs</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <%- contents %>
+
+    <footer class="footer p-3">
+      <h5 class="text-primary">圖片來源 <span class="fn_en">Unsplash</span><br>
+          無商業用途，僅供學習使用
+      </h5>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
